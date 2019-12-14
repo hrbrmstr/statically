@@ -31,6 +31,8 @@ The following functions are implemented:
 ## Installation
 
 ``` r
+install.packages("statically", repos = "https://cinc.rud.is")
+# or
 remotes::install_git("https://git.rud.is/hrbrmstr/statically.git")
 # or
 remotes::install_git("https://git.sr.ht/~hrbrmstr/statically")
@@ -38,6 +40,8 @@ remotes::install_git("https://git.sr.ht/~hrbrmstr/statically")
 remotes::install_gitlab("hrbrmstr/statically")
 # or
 remotes::install_bitbucket("hrbrmstr/statically")
+# or
+remotes::install_github("hrbrmstr/statically")
 ```
 
 NOTE: To use the ‘remotes’ install options you will need to have the
