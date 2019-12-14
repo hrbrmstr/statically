@@ -4,9 +4,11 @@
 \name{statically}
 \alias{statically}
 \alias{statically-package}
-\title{...}
+\title{Generate Webpage Screenshots Using the Statically API}
 \description{
-A good description goes here otherwise CRAN checks fail.
+Statically (\url{https://statically.io/screenshot/}) maintains a free
+API to generate screenshots of webpages. Tools are provided to capture
+website screenshots using this API.
 }
 \seealso{
 Useful links:

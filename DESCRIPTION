@@ -1,6 +1,6 @@
 Package: statically
 Type: Package
-Title: statically title goes here otherwise CRAN checks fail
+Title: Generate Webpage Screenshots Using the Statically API
 Version: 0.1.0
 Date: 2019-12-14
 Authors@R: c(
@@ -8,17 +8,20 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-5670-2640"))
   )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: A good description goes here otherwise CRAN checks fail.
+Description: Statically (<https://statically.io/screenshot/>) maintains a free
+    API to generate screenshots of webpages. Tools are provided to capture 
+    website screenshots using this API.
 URL: https://gitlab.com/hrbrmstr/statically
 BugReports: https://gitlab.com/hrbrmstr/statically/issues
 Encoding: UTF-8
-License: AGPL
+License: MIT + file LICENSE
 Suggests: 
     covr, tinytest
 Depends: 
     R (>= 3.2.0)
 Imports: 
     httr,
-    jsonlite
+    jsonlite,
+    magick
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.0.2

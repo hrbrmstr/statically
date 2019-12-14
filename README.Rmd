@@ -39,6 +39,24 @@ packageVersion("statically")
 
 ```
 
+Default:
+
+```{r ex1}
+generate_screenshot("https://www.latimes.com/")
+```
+
+Mobile:
+
+```{r ex3}
+generate_screenshot("https://www.latimes.com/", mobile = TRUE)
+```
+
+Full page (not shown b/c it's super duper long):
+
+```{r ex2, eval=FALSE}
+generate_screenshot("https://rud.is/b", full_page = TRUE)
+```
+
 ## statically Metrics
 
 ```{r cloc, echo=FALSE}
